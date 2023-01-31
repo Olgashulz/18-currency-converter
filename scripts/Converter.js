@@ -1,5 +1,5 @@
 class Converter {
-    constructor(from = "USD", to = "ILS", amount = 1) {
+    constructor(from = "USD", to = "ILS", amount = 0) {
         this._from = from;
         this._to = to;
         this._amount = amount;
